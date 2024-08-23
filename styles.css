@@ -1,0 +1,66 @@
+body {
+    color:antiquewhite;
+    background:darkred;
+    margin:0px;
+    font-family: "Nunito Sans", sans-serif;
+    margin-bottom: 100px;
+
+}
+
+header{
+    border-bottom:solid 4px rgb(255, 255, 255);
+    padding:20px;
+    font-size: 25px;
+    color: rgb(223, 219, 2);
+
+}
+ .chamada{
+    background: rgb(223, 219, 2);
+    padding-bottom: 60px;
+    padding-top: 60px;
+    display: flex;
+    justify-content:center;
+
+
+ }
+
+ .chamada-texto{
+
+    margin-left: 40px;
+ }
+
+
+h1{
+    font-size: 35px;
+}
+
+p{
+    font-size: 22px
+}
+
+
+.categoria-videos{
+    display: flex;
+    overflow-x:auto;
+    gap: 10px;
+}
+
+.categoria{
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+
+.categoria-videos img{
+    opacity: 0.4;
+    height: 200px;
+}
+
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 1px solid rgb(223, 219, 2);
+}
+
+.categoria h2{
+    color: rgb(223, 219, 2);;
+}
